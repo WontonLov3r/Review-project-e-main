@@ -1,0 +1,123 @@
+.bgjuan {
+    background-image:url("assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+
+}
+
+.logo {
+    margin:10px;
+    padding:10px;
+    margin-left:60px;
+} 
+
+.black {
+    color:black;
+}
+
+.white {
+    color:white;
+}
+
+.center {
+    text-align:center;
+}
+
+* {
+    --bs-gutter-x :0 !important;
+}
+
+.backgroundgray {
+    background-color:#F5F5F5;
+}
+
+.backgroundblue {
+    background-color:#10C9C3;
+}
+
+.blue {
+    color:#10C9C3;
+}
+
+.graye {
+    color:#F5F5F5;
+}
+
+.bolde {
+    font-weight:bold;
+}
+
+.smth {
+    font-family:'Nunito Sans', sans-serif;
+}
+
+.textpadding {
+    padding-top:69px;
+}
+
+.backgroundblack {
+    background-color:#141414;
+}
+
+.footermarg {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.copyright {
+    margin-right: 200px;
+}
+
+.white {
+    color:white;
+}
+
+.imageoverlay:hover {
+    opacity: 0.8;
+    transition: 1s ease;
+  }
+  
+  .contain {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 40%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .iconoverlay {
+    background-color: #000000;
+    font-size: 16px;
+    padding: 32px 32px;
+    opacity:75%;
+  }
+  
+  .contain {
+    width: 50%;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .contain:hover .image {
+    opacity: 0.3;
+  }
+  
+  .contain:hover .middle {
+    opacity: 1;
+  }
+  
